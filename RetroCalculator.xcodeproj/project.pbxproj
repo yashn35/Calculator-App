@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		90441FF71E4C151300272929 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 90441FF61E4C151300272929 /* btn.wav */; };
 		904FBB691E4994680063E807 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904FBB681E4994680063E807 /* AppDelegate.swift */; };
 		904FBB6B1E4994680063E807 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904FBB6A1E4994680063E807 /* ViewController.swift */; };
 		904FBB6E1E4994680063E807 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 904FBB6C1E4994680063E807 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		90441FF61E4C151300272929 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 		904FBB651E4994680063E807 /* RetroCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetroCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		904FBB681E4994680063E807 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		904FBB6A1E4994680063E807 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				904FBB681E4994680063E807 /* AppDelegate.swift */,
 				904FBB6A1E4994680063E807 /* ViewController.swift */,
+				90441FF61E4C151300272929 /* btn.wav */,
 				904FBB6C1E4994680063E807 /* Main.storyboard */,
 				904FBB6F1E4994680063E807 /* Assets.xcassets */,
 				904FBB711E4994680063E807 /* LaunchScreen.storyboard */,
@@ -96,6 +99,7 @@
 				TargetAttributes = {
 					904FBB641E4994680063E807 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = G3KSP4Z87W;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -126,6 +130,7 @@
 				904FBB731E4994680063E807 /* LaunchScreen.storyboard in Resources */,
 				904FBB701E4994680063E807 /* Assets.xcassets in Resources */,
 				904FBB6E1E4994680063E807 /* Main.storyboard in Resources */,
+				90441FF71E4C151300272929 /* btn.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +265,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G3KSP4Z87W;
 				INFOPLIST_FILE = RetroCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.NarayanProduction.RetroCalculator;
@@ -272,6 +278,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G3KSP4Z87W;
 				INFOPLIST_FILE = RetroCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.NarayanProduction.RetroCalculator;
@@ -299,6 +306,7 @@
 				904FBB791E4994680063E807 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
